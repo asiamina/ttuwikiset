@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Activity 5 - Mobile Forensics</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="http://html5-templates.com/">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="style.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <style type="text/css">
+		.auto-style1 {
+			color: #0645AD;
+		}
+		</style>
+  </head>
+  <body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>        <![endif]-->
+    <div class="wrapAll clearfix">
+      <div class="sidebar" style="left: -21px; top: 32px; width: 10.6em; height: 618px">
+        <div class="logo"> <a href="index.html"><img src="img/ttu/TTUCS-logo.PNG" alt="logo"></a>
+        </div>
+        <div class="navigation">
+          <ul>
+            <li><a href="index.html">Main page</a></li>
+            <!--<li><a href="#">Contents</a></li>
+            <li><a href="#">Featured content</a></li>-->
+          </ul>
+          <br>
+          <h3>Topics</h3>
+          <ul>
+            <li style="width: 155px"><a href="mobile_forensics.html"> Mobile Forensics</a></li>
+            <li class="auto-style1" style="text-align: center;"><a href="mobile_forensics_activity1.html" style="color: #a72614;">Activity 1</a></li>
+            <li class="auto-style1" style="text-align: center;"><a href="mobile_forensics_activity2.html" style="color: #a72614;">Activity 2</a></li>
+            <li class="auto-style1" style="text-align: center;"><a href="mobile_forensics_activity3.html" style="color: #a72614;">Activity 3</a></li>
+            <li class="auto-style1" style="text-align: center;"><a href="mobile_forensics_activity4.html" style="color: #a72614;">Activity 4</a></li>
+            <li class="auto-style1" style="text-align: center;"><a href="mobile_forensics_activity5.html" style="color: #a72614;">Activity 5</a></li>
+            <li style="width: 155px"><a href="#">Malware Analysis</a></li>
+            <li class="auto-style1"><a href="#">Software Security</a></li>
+            <li class="auto-style1"><a href="#">Network Forensics</a></li>
+            <li class="auto-style1"><a href="#">Social Engineering</a></li>
+            <li class="auto-style1"><a href="#">Reverse Engineering</a></li>
+            <li class="auto-style1"><a href="#">Content/Threat Analysis</a></li>
+         
+          </ul>
+        <!--
+            <h3>References</h3>
+      
+          <ul>
+            <li class="auto-style1"><a href="mobile_forensics_references.html">Mobile Forensics</a></li>
+			  <li class="auto-style1"><a href="#">Malware Analysis</a></li>
+                              
+          </ul>
+          -->
+          <br>
+			<h3>Interaction </h3>
+			<ul>
+						<li><a href="contact_us.html">Contact Us</a></li>
+						<li><a href="about.html">About</a></li>
+					</ul>
+        </div>
+      </div>
+      <div class="mainsection">
+        <div class="headerLinks"> &nbsp; <a href="#">Contributions</a>&nbsp;&nbsp;
+          </div>
+        <div class="tabs clearfix">
+          <div class="tabsLeft">
+            <ul>
+              <li><a href="#" class="active">Article</a></li>
+            </ul>
+          </div>
+          <div id="simpleSearch"> <input name="searchInput" id="searchInput" placeholder="Search Wikipedia"
+              size="12"
+              type="text">
+            <div id="submitSearch"></div>
+          </div>
+          <div class="tabsRight">
+            <ul>
+              <li><a href="#" class="active">Read</a></li>
+              <li><a href="#">View source</a></li>
+              <li><a href="#">View history</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="article">
+          <h1>Activity 5 - Mobile Forensics</h1>
+          <p class="siteSub">&nbsp;</p>
+          <h3>Android Studio</h3>
+          <p class="roleNote">Estimated Time : 15 Minutes</p>
+          
+          
+          <h2>Objective</h2>
+          <p>In this Activity 5, the installed app from previous activity
+             is modified to connect with Python web server running on
+              local computer and login credentials are monitored on Logcat window.</p>
+          <h2>Description</h2>
+          <p>
+            In this Activity, we will modify settings inside app
+             to connect with python web server setup on local system
+              and monitor the logs using "Logcat" on Android Studio.
+          </p>
+          
+          <h2>Instructions</h2>
+          <p>
+            <ul>
+              <li>Step 1: Leave the python web server running on port 8080. Do not disturb the server.</li>
+              <br>
+              <li>Step 2: Open new command prompt window and check your system ip address with command "ipconfig". Make a note of IPv4 address in the ipconfig command output.</li>
+              <br>
+              <li>Step 3: Now go to android studio -> AVD (Android Virtual Device) -> Run Device in emulator -> Open app (which is installed through login.apk file)</li>
+              <br>
+              <li>Step 4: Inside the app, at the lower right corner, click the three-dot icon.</li>
+              <br>
+              <li>Step 5: Click Reset, Click the three-dot icon again.</li>
+              <br>
+              <li>Step 6: Click "Preferences" -> Click "Bank Service Address" -> Put your system ip address identified from Step2 here.</li>
+              <br>&emsp;&emsp;&emsp;<img src="img/ttu/Activity5/bank-service-address.PNG" width="50%" height="50%">
+              <br><br>
+              <li>Step 7: Similarly go to "Preferences" page again -> Click "HTTP Port" -> Set port as 8080</li>
+              <br>
+              <li>Step 8: Now go to app login page (start page) and enter credentials. Default account credentials are provided on the same login page.</li>
+              <br>
+              <li>Step 9: When you enter credentials and click "Login" button, you can see logs in "Logcat" window.</li>
+              <br>&emsp;&emsp;&emsp;<img src="img/ttu/Activity5/logcat.PNG" width="100%" height="100%">
+              <br><br>
+              <li>Step 10: Take a screenshot of logs in "Logcat" window showing the credentials in plaintext format. Please send the screenshot to Professor through mail for submission.</li>
+            </ul>	
+          
+          
+          </p>
+          <h2>Self-Assessment</h2>
+          <p>Please complete the following self-assessment over Activity 4.<br>
+            <a href="Challenge5.html" alt="Start Assessment">Start Assessment</a>
+          </p>
+          <!--<div class="lavenderBox">
+            <div class="header">Panel title</div>
+            <div class="subtitle linklist"><a href="#">Lorem</a> <a href="#">Ipsum</a>
+              <a href="#">Dolorestitas</a> </div>
+            <div class="linklist"> <a href="#">Percipit </a> <a href="#">Mnesarchum
+                </a> <a href="#">Molestie </a> <a href="#">Phaedrum </a> <a
+                href="#">Luptatum
+                constituam </a> <a href="#">Habeo adipisci </a> <a href="#">Inani
+                zril </a> <a href="#">Forensibus sea </a> <a href="#">Habeo
+                adipisci </a> <a href="#">Minimum corrumpit </a> <a href="#">Regione
+                suscipit </a> <a href="#">Has et partem </a><a href="#">Percipit
+                </a> <a href="#">Mnesarchum </a> <a href="#">Molestie </a> <a
+                href="#">Phaedrum
+                </a> <a href="#">Luptatum constituam </a> <a href="#">Habeo
+                adipisci </a> <a href="#">Inani zril </a> <a href="#">Vel
+                nisl albucius </a> <a href="#">Habeo adipisci </a> <a href="#">Minimum
+                corrumpit </a> <a href="#">Regione suscipit </a> <a href="#">Percipit
+                maiestatis </a> <a href="#">Regione suscipit </a> <a href="#">Percipit
+                maiestatis </a> </div>
+            <div class="subtitle">Subtitle</div>
+          </div>
+          <div class="categories"> <a href="https://info.flagcounter.com/WApn"><img
+                src="https://s11.flagcounter.com/count2/WApn/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/"
+                alt="Flag Counter"
+                border="0"></a>
+          </div>
+        -->
+        </div>
+        <div class="pagefooter"> This page was last edited on 29.07.2017 |
+          Template by <a href="http://html5-templates.com/" target="_blank" rel="nofollow">HTML5
+            Templates</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <!-- Please leave this link unchanged -->
+          <div class="footerlinks"> <a href="#">Privacy policy</a> <a href="#">About</a>
+            <a href="#">Terms and conditions</a> <a href="#">Cookie statement</a>
+            <a href="#">Developers</a> </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" href="AIchat.v1.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="dependencies.v1.js"></script>
+		<script type="text/javascript" src="AIchat.v1.js"></script>
+  </body>
+</html>

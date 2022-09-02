@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Activity 1 - Mobile Forensics</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="http://html5-templates.com/">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="style.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <style type="text/css">
+		.auto-style1 {
+			color: #0645AD;
+		}
+		</style>
+  </head>
+  <body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>        <![endif]-->
+    <div class="wrapAll clearfix">
+      <div class="sidebar" style="left: -21px; top: 32px; width: 10.6em; height: 618px">
+        <div class="logo"> <a href="index.html"><img src="img/ttu/TTUCS-logo.PNG" alt="logo"></a>
+        </div>
+        <div class="navigation">
+          <ul>
+            <li><a href="index.html">Main page</a></li>
+            <!--<li><a href="#">Contents</a></li>
+            <li><a href="#">Featured content</a></li>-->
+          </ul>
+          <br>
+          <h3>Topics</h3>
+          <ul>
+            <li style="width: 155px"><a href="mobile_forensics.html"> Mobile Forensics</a></li>
+            <li class="auto-style1" style="text-align: center;"><a href="mobile_forensics_activity1.html" style="color: #a72614;">Activity 1</a></li>
+            <li class="auto-style1" style="text-align: center;"><a href="mobile_forensics_activity2.html" style="color: #a72614;">Activity 2</a></li>
+            <li class="auto-style1" style="text-align: center;"><a href="mobile_forensics_activity3.html" style="color: #a72614;">Activity 3</a></li>
+            <li class="auto-style1" style="text-align: center;"><a href="mobile_forensics_activity4.html" style="color: #a72614;">Activity 4</a></li>
+            <li class="auto-style1" style="text-align: center;"><a href="mobile_forensics_activity5.html" style="color: #a72614;">Activity 5</a></li>
+            <li style="width: 155px"><a href="#">Malware Analysis</a></li>
+            <li class="auto-style1"><a href="#">Software Security</a></li>
+            <li class="auto-style1"><a href="#">Network Forensics</a></li>
+            <li class="auto-style1"><a href="#">Social Engineering</a></li>
+            <li class="auto-style1"><a href="#">Reverse Engineering</a></li>
+            <li class="auto-style1"><a href="#">Content/Threat Analysis</a></li>
+         
+          </ul>
+        <!--
+            <h3>References</h3>
+      
+          <ul>
+            <li class="auto-style1"><a href="mobile_forensics_references.html">Mobile Forensics</a></li>
+			  <li class="auto-style1"><a href="#">Malware Analysis</a></li>
+                              
+          </ul>
+          -->
+          <br>
+			<h3>Interaction </h3>
+			<ul>
+						<li><a href="contact_us.html">Contact Us</a></li>
+						<li><a href="about.html">About</a></li>
+					</ul>
+        </div>
+      </div>
+      <div class="mainsection">
+        <div class="headerLinks"> &nbsp; <a href="#">Contributions</a>&nbsp;&nbsp;
+          </div>
+        <div class="tabs clearfix">
+          <div class="tabsLeft">
+            <ul>
+              <li><a href="#" class="active">Article</a></li>
+            </ul>
+          </div>
+          <div id="simpleSearch"> <input name="searchInput" id="searchInput" placeholder="Search Wikipedia"
+              size="12"
+              type="text">
+            <div id="submitSearch"></div>
+          </div>
+          <div class="tabsRight">
+            <ul>
+              <li><a href="#" class="active">Read</a></li>
+              <li><a href="#">View source</a></li>
+              <li><a href="#">View history</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="article">
+          <h1>Activity 1 - Mobile Forensics</h1>
+          <p class="siteSub">&nbsp;</p>
+          <h3>Generate Keystore and APK File</h3>
+          <p class="roleNote">Estimated Time : 30 Minutes</p>
+          
+          <h2>Scenario</h2>
+          <p>Jack and Jill are friends who trust each other. Jack is using
+             an app in her cellphone which asks for a username and password.
+              Jill wants to surprise Jack with her hacking skills. So, she
+               wants to modify this app in a way that puts the input username
+                and password in the log and send them to a prepared server.</p>
+          <h2>Objective</h2>
+          <p>In this Activity 1, a signed APK file is generated along with key store file (jks).</p>
+          <h2>Prerequisites</h2>
+          <p>
+          <ul>
+            <li>↠ &nbsp;&nbsp;A computer with Android Studio installed.</li>
+            <li>↠ &nbsp;&nbsp;An Android emulator or device to test the app on.</li>
+            <li>↠ &nbsp;&nbsp;Python installed on the computer.</li>
+            <li>↠ &nbsp;&nbsp;JDK installed on the computer.</li>
+          </ul>
+          </p>
+          <h2>Artifacts</h2>
+          <p> Click below link to download APK file.<br>
+            <a href="img/ttu/Activity1/app-release.apk" alt="app-release.apk">app-release.apk</a></p>
+          <h2>Instructions</h2>
+          <p>
+            <ul>
+              <li>Step 1: This learning project requires a computer installed with Android Studio.</li>
+              &emsp;&emsp;&emsp;(Useful YouTube video link for Android Studio setup)<br>
+              &emsp;&emsp;&emsp;<a href="https://www.youtube.com/watch?v=0zx_eFyHRU0">https://www.youtube.com/watch?v=0zx_eFyHRU0</a>
+              <br>
+              <li>Step 2: You need to install python on your computer for running the server in Activity 4.</li>
+              &emsp;&emsp;&emsp;(Useful YouTube video link for Python setup on computer)<br>
+              &emsp;&emsp;&emsp;<a href="https://www.youtube.com/watch?v=Kn1HF3oD19c">https://www.youtube.com/watch?v=Kn1HF3oD19c</a>
+              <br>
+              <li>Step 3: You need to have jdk installed on your computer for running java-based commands in next Activities.</li>
+              &emsp;&emsp;&emsp;(Useful YouTube video link for JDK setup on computer)<br>
+              &emsp;&emsp;&emsp;<a href="https://www.youtube.com/watch?v=IJ-PJbvJBGs">https://www.youtube.com/watch?v=IJ-PJbvJBGs</a>
+              <br>
+              <li>Step 4: We shall start by creating an APK file and key store file using Android Studio software.</li>
+              &emsp;&emsp;&emsp;(Note: We have taken Android Studio 3+ version for this tutorial)
+              <br>
+              <br>
+              <li>Step 5: Open Android Studio -> Click 'Build' -> Generate Signed APK</li>
+              &emsp;&emsp;&emsp;<img src="img/ttu/Activity1/AndroidStudio-Generate-APK.png" width="50%" height="50%">
+              <br>
+              <br>
+              <li>Step 6: On the Generate APK page click "Create New" button for creating a key store first. We need to create key store beforehand for signing the APK file.</li>
+              &emsp;&emsp;&emsp;<img src="img/ttu/Activity1/Create-New-Key-Store-1.PNG" width="50%" height="50%">
+              <br>
+              <br>
+              <li>Step 7: On the "New Key Store" page, we need to fill details.</li>
+              &emsp;&emsp;&emsp;key store path: <set path for storing keystore file on your computer and make a note of it><br>
+              &emsp;&emsp;&emsp;password: <set password and make a note of it><br>
+              &emsp;&emsp;&emsp;Alias: <set an alias name and make a note of it><br>
+              &emsp;&emsp;&emsp;First and Last Name: <Here you can put your first and last names and make a note of it> <br>
+              &emsp;&emsp;&emsp;For remaining fields, you can refer below screenshot<br>
+              &emsp;&emsp;&emsp;<img src="img/ttu/Activity1/New-key-store-page.PNG" width="50%" height="50%">
+              <br>
+              <br>
+              <li>Step 8: After filling details and clicking OK on "New Key Store", you will be redirected to "Generate Signed APK" again. But this time you will see fields auto filled.</li>
+              &emsp;&emsp;&emsp;<img src="img/ttu/Activity1/AutoFilled-Generate-APK-Page.PNG" width="50%" height="50%">
+              <br>
+              <br>
+              <li>Step 9: Click Next -> Build Type "Release" -> Finish -> Signed APK generated Successfully</li>
+              <br>
+              <li>Step 10: From above steps we need key store file "p9cert.jks"</li>
+              <br>
+              <li>Step 11: Signed APK file for the app is directly provided under "Activity 1: Artifacts" section with name "app-release.apk"</li>
+              </ul>
+          
+          
+          </p>
+          <h2>Self-Assessment</h2>
+          <p>Please complete the following self-assessment over Activity 1.<br>
+            <a href="Challenge1.html" alt="Start Assessment">Start Assessment</a>
+          </p>
+          <!--<div class="lavenderBox">
+            <div class="header">Panel title</div>
+            <div class="subtitle linklist"><a href="#">Lorem</a> <a href="#">Ipsum</a>
+              <a href="#">Dolorestitas</a> </div>
+            <div class="linklist"> <a href="#">Percipit </a> <a href="#">Mnesarchum
+                </a> <a href="#">Molestie </a> <a href="#">Phaedrum </a> <a
+                href="#">Luptatum
+                constituam </a> <a href="#">Habeo adipisci </a> <a href="#">Inani
+                zril </a> <a href="#">Forensibus sea </a> <a href="#">Habeo
+                adipisci </a> <a href="#">Minimum corrumpit </a> <a href="#">Regione
+                suscipit </a> <a href="#">Has et partem </a><a href="#">Percipit
+                </a> <a href="#">Mnesarchum </a> <a href="#">Molestie </a> <a
+                href="#">Phaedrum
+                </a> <a href="#">Luptatum constituam </a> <a href="#">Habeo
+                adipisci </a> <a href="#">Inani zril </a> <a href="#">Vel
+                nisl albucius </a> <a href="#">Habeo adipisci </a> <a href="#">Minimum
+                corrumpit </a> <a href="#">Regione suscipit </a> <a href="#">Percipit
+                maiestatis </a> <a href="#">Regione suscipit </a> <a href="#">Percipit
+                maiestatis </a> </div>
+            <div class="subtitle">Subtitle</div>
+          </div>
+          <div class="categories"> <a href="https://info.flagcounter.com/WApn"><img
+                src="https://s11.flagcounter.com/count2/WApn/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/"
+                alt="Flag Counter"
+                border="0"></a>
+          </div>
+        -->
+        </div>
+        <div class="pagefooter"> This page was last edited on 29.07.2017 |
+          Template by <a href="http://html5-templates.com/" target="_blank" rel="nofollow">HTML5
+            Templates</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <!-- Please leave this link unchanged -->
+          <div class="footerlinks"> <a href="#">Privacy policy</a> <a href="#">About</a>
+            <a href="#">Terms and conditions</a> <a href="#">Cookie statement</a>
+            <a href="#">Developers</a> </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" href="AIchat.v1.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="dependencies.v1.js"></script>
+		<script type="text/javascript" src="AIchat.v1.js"></script>
+  </body>
+</html>
