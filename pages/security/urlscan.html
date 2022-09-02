@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Wikipedia Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="http://html5-templates.com/">
+    <link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="../../style.css">
+    <script src="../../js/vendor/modernizr-2.8.3.min.js"></script>
+    <style type="text/css">
+		.auto-style1 {
+			color: #0645AD;
+		}
+		</style>
+  </head>
+  <body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>        <![endif]-->
+    <div class="wrapAll clearfix">
+      <div class="sidebar" style="left: -21px; top: 32px; width: 10.6em; height: 618px">
+        <div class="logo"> <a href="../../index.html"><img src="../../img/logo.png" alt="logo"></a>
+        </div>
+        <div class="navigation">
+          <ul>
+            <li><a href="urlscan.html">Main page</a></li>
+            <li><a href="#">Contents</a></li>
+            <li><a href="#">Featured content</a></li>
+          </ul>
+          <h3>Interaction</h3>
+          <ul>
+            <li style="width: 155px"><a href="../memory/main.html"> Memory Forensics</a></li>
+            <li style="width: 155px"><a href="../malware/main.html">Malware Analysis</a></li>
+            <li class="auto-style1"><a href="../software/main.html">Software
+                Security</a></li>
+            <li class="auto-style1"><a href="../network/main.html">Network
+                Forensics</a></li>
+            <li class="auto-style1"><a href="../social/main.html">Social
+                Engineering</a></li>
+          
+            <li class="auto-style1"><a href="../reverse/main.html">Reverse
+                Engineering</a></li>
+
+            <li class="auto-style1"><a href="../threat/main.html">Content/Threat
+                Analysis</a></li>
+        
+            <li class="auto-style1"><a href="../mobile/main.html">Mobile
+                Forensics</a></li>
+         
+          </ul>
+        
+            <h3>Interaction</h3>
+      
+          <ul>
+            <li class="auto-style1"><a href="secTest.html">Security Test</a></li>
+			  <li class="auto-style1"><a href="urlscan.html">Security Tools</a></li>
+			  <li class="auto-style1"><a href="../handson/main.html">Hands-on Experience</a></li>
+			  <li class="auto-style1"><a href="../course/main.html">Other Course Modules</a></li>
+			  <li class="auto-style1"><a href="../attacks/main.html">Attacks</a></li>
+          </ul>
+			
+			<h3>Interaction</h3>
+       
+          <ul>
+           
+            <li><a href="#">Help</a></li>
+            <li><a href="../../about.html">About</a></li>
+            <li><a href="#">Portal</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="mainsection">
+        <div class="headerLinks"> &nbsp; <a href="#">Contributions</a>&nbsp;&nbsp;
+          </div>
+        <div class="tabs clearfix">
+          <div class="tabsLeft">
+            <ul>
+              <li><a href="#" class="active">Article</a></li>
+            </ul>
+          </div>
+          <div id="simpleSearch"> <input name="searchInput" id="searchInput" placeholder="Search Wikipedia"
+              size="12"
+              type="text">
+            <div id="submitSearch"></div>
+          </div>
+          <div class="tabsRight">
+            <ul>
+              <li><a href="#" class="active">Read</a></li>
+              <li><a href="https://github.com/asiamina/WikiSET">View source</a></li>
+              <li><a href="#">View history</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="article">
+          <h1>URLScan Security Tool</h1>
+          <p class="siteSub">&nbsp;</p>
+          <div class="contentsPanel">
+            <div class="contentsHeader">Contents</div>
+            <ul>
+              <li> <span>1</span><a href="#urlscan">URLScan Security Tool</a>
+                <ul>
+                  <li><span>1.1</span><a href="#resources">Helpful Resouces</a> </li>
+                </ul>
+              </li>
+              <li><span>2</span><a href="#references">References</a></li>
+            </ul>
+          </div>
+          <h2 id="urlscan">URLScan Security Tool</h2>
+          <ul style="list-style-type:disc">
+          <li> Attackers often use websites to conduct phishing attacks or distribute malware.
+			</li>
+			<li >According to the Microsoft Security Intelligence Report Volume 13, there were 4.4 phishing sites per 1,000 Internet hosts worldwide in the second quarter of 2012 (2Q12) alone.  
+			</li>
+			<li > Malicious websites typically appear to be completely legitimate and often provide no outward indicators of their malicious nature, even to experienced computer users. In many cases, these sites are legitimate websites that have been compromised by malware, SQL injection, or other techniques in an effort by attackers to take advantage of the trust users have in them.			</li>
+			<li>   URLScan is a security tool that restricts the types of HTTP requests that IIS will process. It scans incoming <abbr title="Uniform Resource Locator">URL</abbr> requests and associated data. It uses a series of rules to determine whether the information in each request is potentially dangerous, or contains information not normally expected.
+			</li>
+			<li> To help you diagnose any potential problems and any attempts to upset your server, URLScan can also log requests—including the offending request data. 
+			</li>
+			<li> By blocking specific HTTP requests, the URLScan security tool helps to prevent potentially harmful requests from reaching applications on the server. 
+			</li>
+			<li> While URLScan technologies (such as built in Request Filtering Module) are built in to IIS 7 or newer versions of IIS, it is still a valuable tool for systems that are running IIS 6.0 and below. 
+			</li>
+			<li> For reference, below is a list of the operating systems and their default IIS version:
+			
+			<a href="../../img/iis.png" class="media" title="iis.png"><img src="../../img/iis.png" class="media" alt="" width="400" /></a>
+			<ul style="list-style-type:disc">
+				<li>The filters in URLScan are based upon rules that the administrator configures. Administrators may configure URLScan to reject HTTP requests based on the following criteria:
+				</li>
+			
+				<div style="margin-left:40px">
+				<ul style="list-style-type:circle">
+					<li>The HTTP request method or verb
+				</li>
+					<li>The file name extension of the requested resource
+				</li>
+					<li>Suspicious <abbr title="Uniform Resource Locator">URL</abbr> encoding
+					</li>
+					<li>Presence of non-<abbr title="American Standard Code for Information Interchange">ASCII</abbr> characters in the 
+					<abbr title="Uniform Resource Locator">URL</abbr> </li>
+					<li>Presence of specified character sequences in the 
+					<abbr title="Uniform Resource Locator">URL</abbr> </li>
+					<li>Presence of specified headers in the request
+				</li>
+				</ul>
+				</div>
+			<li>URLScan can act as a buffer, so you don’t have to modify your existing code. Therefore, if a request is identified as being a potential risk,
+			 the script can immediately return an HTTP 404 message to the client, without the information ever reaching the script. This help to protect the script, your Web site and your server.</li>
+			</ul>			
+			
+
+          <h2 id="resources">Helpful Resources</h2>
+          <ul style="list-style-type:square">
+			<li> <a href="http://www.iis.net/learn/extensions/working-with-urlscan/urlscan-3-reference" class="urlextern" title="http://www.iis.net/learn/extensions/working-with-urlscan/urlscan-3-reference"> URLScan Security Tool Download</a>
+			</li>
+			<li> <a href="http://forums.iis.net/" class="urlextern" title="http://forums.iis.net/"> URLScan Security Tool Forums</a>			<li> <a href="http://www.iis.net/learn/extensions/working-with-urlscan/urlscan-faq" class="urlextern" title="http://www.iis.net/learn/extensions/working-with-urlscan/urlscan-faq"> URLScan Security Tool FAQ</a>
+			</li>
+		  </ul>
+			
+		<h2 id="references"> References</h2>
+		<ul style="list-style-type:square">
+		<li> <a href="http://blogs.technet.com/b/security/archive/2013/01/22/microsoft-s-free-security-tools-urlscan-security-tool.aspx" title="http://blogs.technet.com/b/security/archive/2013/01/22/microsoft-s-free-security-tools-urlscan-security-tool.aspx">http://blogs.technet.com/b/security/archive/2013/01/22/microsoft-s-free-security-tools-urlscan-security-tool.aspx</a></li>
+		</ul>
+		<br/>
+          <div class="lavenderBox">
+            <div class="header">Panel title</div>
+            <div class="subtitle linklist"><a href="#">Lorem</a> <a href="#">Ipsum</a>
+              <a href="#">Dolorestitas</a> </div>
+            <div class="linklist"> <a href="#">Percipit </a> <a href="#">Mnesarchum
+                </a> <a href="#">Molestie </a> <a href="#">Phaedrum </a> <a
+                href="#">Luptatum
+                constituam </a> <a href="#">Habeo adipisci </a> <a href="#">Inani
+                zril </a> <a href="#">Forensibus sea </a> <a href="#">Habeo
+                adipisci </a> <a href="#">Minimum corrumpit </a> <a href="#">Regione
+                suscipit </a> <a href="#">Has et partem </a><a href="#">Percipit
+                </a> <a href="#">Mnesarchum </a> <a href="#">Molestie </a> <a
+                href="#">Phaedrum
+                </a> <a href="#">Luptatum constituam </a> <a href="#">Habeo
+                adipisci </a> <a href="#">Inani zril </a> <a href="#">Vel
+                nisl albucius </a> <a href="#">Habeo adipisci </a> <a href="#">Minimum
+                corrumpit </a> <a href="#">Regione suscipit </a> <a href="#">Percipit
+                maiestatis </a> <a href="#">Regione suscipit </a> <a href="#">Percipit
+                maiestatis </a> </div>
+            <div class="subtitle">Subtitle</div>
+          </div>
+          <div class="categories"> <a href="https://info.flagcounter.com/WApn"><img
+                src="https://s11.flagcounter.com/count2/WApn/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/"
+                alt="Flag Counter"
+                border="0"></a>
+          </div>
+        </div>
+        <div class="pagefooter"> This page was last edited on 29.07.2017 |
+          Template by <a href="http://html5-templates.com/" target="_blank" rel="nofollow">HTML5
+            Templates</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <!-- Please leave this link unchanged -->
+          <div class="footerlinks"> <a href="#">Privacy policy</a> <a href="#">About</a>
+            <a href="#">Terms and conditions</a> <a href="#">Cookie statement</a>
+            <a href="#">Developers</a> </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+    <script src="../../script.js"></script>
+  </body>
+</html>

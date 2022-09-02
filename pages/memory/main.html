@@ -1,0 +1,189 @@
+﻿<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Memory Forensics</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="canonical" href="http://html5-templates.com/" >
+        <link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="../../style.css">
+        <script src="../../js/vendor/modernizr-2.8.3.min.js"></script>
+    	<style type="text/css">
+		.auto-style1 {
+			color: #0645AD;
+		}
+		</style>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+		<div class="wrapAll clearfix">
+			<div class="sidebar" style="left: -21px; top: 32px; width: 10.6em; height: 618px">
+				<div class="logo">
+					<a href="../../index.html"><img src="../../img/logo.png" alt="logo"></a>
+				</div>
+				<div class="navigation">
+					<ul>
+						<li><a href="../../index.html">Main page</a></li>
+						<li><a href="#">Contents</a></li>
+						<li><a href="#">Featured content</a></li>
+					</ul>
+					<h3>Interaction</h3>
+					<ul>
+						<li style="width: 155px"><a href="../memory/main.html"> Memory Forensics</a></li>
+            			<li style="width: 155px"><a href="../malware/main.html">Malware Analysis</a></li>
+						<li class="auto-style1"><a href="../software/main.html">Software Security</a></li>
+						<li class="auto-style1"><a href="../network/main.html">Network Forensics</a></li>
+						<li class="auto-style1"><a href="../social/main.html">Social Engineering</a></li>
+						<li class="auto-style1"><a href="../reverse/main.html">Reverse Engineering</a></li>
+						<li class="auto-style1"><a href="../threat/main.html">Content/Threat Analysis</a></li>
+						<li class="auto-style1"><a href="../mobile/main.html">Mobile Forensics</a></li>
+					</ul>
+					<h3>Interaction</h3>
+      
+          <ul>
+            <li class="auto-style1"><a href="../security/secTest.html">Security Test</a></li>
+			  <li class="auto-style1"><a href="../security/tools.html">Security Tools</a></li>
+			  <li class="auto-style1"><a href="../handson/main.html">Hands-on Experience</a></li>
+			  <li class="auto-style1"><a href="../course/main.html">Other Course Modules</a></li>
+			  <li class="auto-style1"><a href="../attacks/main.html">Attacks</a></li>
+                              
+          </ul>
+					<h3>Interaction</h3>
+					<ul>
+						<li><a href="#">Help</a></li>
+						<li><a href="../../about.html">About</a></li>
+						<li><a href="#">Portal</a></li>
+					</ul>
+				</div>
+
+			
+			</div>
+			<div class="mainsection">
+				<div class="headerLinks">
+					&nbsp; <a href="#">Contributions</a>&nbsp;&nbsp;
+				</div>
+				<div class="tabs clearfix">
+					<div class="tabsLeft">
+						<ul>
+							<li><a href="#" class="active">Article</a></li>
+						</ul>
+					</div>
+					<div id="simpleSearch">
+						<input type="text" name="searchInput" id="searchInput" placeholder="Search Wikipedia" size="12" />
+						<div id="submitSearch"></div>
+					</div>
+					<div class="tabsRight">
+						<ul>
+							<li><a href="#" class="active">Read</a></li>
+							<li><a href="#">View source</a></li>						
+							<li><a href="#">View history</a></li>						
+						</ul>
+					</div>
+				
+				</div>
+				<div class="article">
+					<h1>Memory Forensics</h1>
+	<p class="siteSub">&nbsp;</p>
+					
+				<p>Memory Forensics or memory analysis is the forensic analysis of the computer's memory.&nbsp; Memory forensics provides insights into network connections, executed files or commands, and runtime system activity. To execute any program, it must be first loaded on the memory, which makes it critical for forensic to identify attacks [1]. </p>
+					
+					
+					<div class="contentsPanel">
+					  <div class="contentsHeader">Contents</div>
+						<ul>
+							<li>
+								<span>1</span><a href="#syllabus">Selected Syllabi</a>  </li>
+							<li><span>2</span><a href="#tools">Tools</a></li>
+							<li><span>3</span><a href="#resources">Learning Resources</a></li>
+							<li><span>4</span><a href="#references">References</a></li>
+						</ul>
+	</div>
+					
+				  <h2 id="syllabus">Selected Syllabi</h2>
+					<ul style="list-style: square; margin-left: 25px">
+					  <li>Memory Forensics, CFRS 780 – 001 - Spring 2016; <em>George Mason University</em> <a target="_blank" href="https://cfrs.gmu.edu/assets/Spring%2016/CFRS%20780%20-%20Memory%20Forensics%20-%20Syllabus_SP16.pdf">[link]</a></li>
+					  <li>CSCI 597 – Digital Forensics <em>Texas A&amp;M University Commerce</em> <a target="_blank" href="http://www.tamuc.edu/academics/cvSyllabi/syllabi/201820/22923.pdf">[link]</a></li>
+						<li>COMP 8990 - Advanced Digital Forensics, <em>MISSISSIPPI STATE UNIVERSITY</em> <a target="_blank" href="http://web.cse.msstate.edu/~hamilton/Forensics/syllabus.pdf">[link]</a></li>
+						<li>NETW236 - Computer Forensics and Investigation, <em>Brookdale Community College</em> <a target="_blank" href="https://selfservice.brookdalecc.edu:9004/NETW-236.pdf">[link]</a></li>
+				  </ul>
+					
+					<h2 id="tools">Tools</h2>
+			      <p> Below are some of the popular tools used in memory forensic:</p>
+			      <ul style="list-style: square; margin-left: 25px">
+					<li> <a target="_blank" href="https://www.volatilityfoundation.org/#!releases/component_71401">Volatility</a></li>
+					<li> <a target="_blank" href="https://accessdata.com/products-services/forensic-toolkit-ftk"> Forensics Toolkit (FTK)</a> </li>
+					  <li><a target="_blank" href="http://www.rekall-forensic.com/releases"> Rekall</a></li>
+					<li> <a target="_blank" href="https://www.magnetforensics.com/resources/magnet-ram-capture/"> Magnet RAM Capture</a> </li>
+					<li> <a target="_blank" href="https://www.fireeye.com/services/freeware/memoryze.html">Memoryze</a> </li>
+					  <li> <a target="_blank" href="https://winpmem.velocidex.com">WinPmem</a></li>
+					  <li><a target="_blank" href="https://www.comae.com/dumpit/">DumpIt</a></li>
+<li><a target="_blank" href="https://github.com/504ensicsLabs/LiME">Linux Memory Extractor - LiME</a></li>
+	</ul>
+					
+					<h2 id="resources"> Learning Resources</h2>
+				  <h3>YouTube Videos</h3>
+					 <ul style="list-style: square; margin-left: 25px">
+					<li> Introduction to Memory Forensics [Playlist]: <a target="_blank" href="https://www.youtube.com/playlist?list=PLlv3b9B16Zaf-uDlgouB0DMiPNYU_sJFN">link</a> </li>
+					<li> Investigating Malware Using Memory Forensics - A Practical Approach [Black Hat]: <a target="_blank" href="https://youtu.be/BMFCdAGxVN4">link</a></li>
+					<li> SANS memory Forenisc  [playlists]: <a target="_blank" href="https://www.youtube.com/playlist?list=PLfouvuAjspTqb926-D0kzL5GSTwVL8X38">Windows</a> &nbsp; <a target="_blank" href="https://www.youtube.com/playlist?list=PLfouvuAjspToi20WLhZwCe9gDMQCJk_Jz">Linux</a></li>
+					</ul>
+					<h3>Books</h3>
+					<ul style="list-style: square; margin-left: 25px">
+					  <li><em>The Art of Memory Forensics: Detecting Malware and Threats in Windows, Linux, and Mac Memory</em>; Michael Hale Ligh, Andrew Case, Jamie Levy, Aaron Walters</li>
+					  <li><em>Digital Forensics</em>; André Årnes</li> 
+						<li>Computer Forensics with FTK; Fernando Carbone</li>
+					  <li><em>Practical Malware Analysis: The Hands-On Guide to Dissecting Malicious Software</em>; Andrew Honig and Michael Sikorski</li>
+				  </ul>
+					<h3>Online Courses</h3>
+					<ul style="list-style: square; margin-left: 25px">
+	<li>Coursera <em>Penetration Testing, Incident Response and Forensics</em>: <a target="_blank" href="https://www.coursera.org/learn/ibm-penetration-testing-incident-response-forensics#syllabus">[link]</a></li>
+						<li>SANS FOR526: Advanced Memory Forensics &amp; Threat Detection:&nbsp; <a target="_blank" href="https://www.sans.org/cyber-security-courses/advanced-memory-forensics-and-threat-detection/">[link]</a></li>
+						<li>Volatility Labs, Memory and Malware Forensics: <a target="_blank" href="https://volatility-labs.blogspot.com/2019/10/volatility-malware-and-memory-forensics-training.html">[link]</a></li>
+						<li>InfoSec Memory Forensics <a target="_blank" href="https://www.infosecinstitute.com/skills/courses/memory-forensics/">[link]</a></li>
+					</ul>
+				<h2 id="references">References</h2>	
+						[1] <a target="_blank" href="https://blog.eccouncil.org/all-you-need-to-know-about-memory-forensics-identifying-potential-volatile-data/"> ALL YOU NEED TO KNOW ABOUT MEMORY FORENSICS – IDENTIFYING POTENTIAL VOLATILE DATA</a>
+					
+					
+					
+					
+<div class="lavenderBox">
+  <div class="header">Panel title</div>
+						<div class="subtitle linklist"><a href="#">Lorem</a> <a href="#">Ipsum</a> <a href="#">Dolorestitas</a> </div>
+						<div class="linklist">
+							<a href="#">Percipit </a> <a href="#">Mnesarchum </a> <a href="#">Molestie </a> <a href="#">Phaedrum </a> <a href="#">Luptatum constituam </a> <a href="#">Habeo adipisci </a> <a href="#">Inani zril  </a> <a href="#">Forensibus sea </a> <a href="#">Habeo adipisci </a> <a href="#">Minimum corrumpit </a> <a href="#">Regione suscipit </a> <a href="#">Has et partem </a><a href="#">Percipit </a> <a href="#">Mnesarchum </a> <a href="#">Molestie </a> <a href="#">Phaedrum </a> <a href="#">Luptatum constituam </a> <a href="#">Habeo adipisci </a> <a href="#">Inani zril  </a> <a href="#">Vel nisl albucius </a> <a href="#">Habeo adipisci </a> <a href="#">Minimum corrumpit </a> <a href="#">Regione suscipit </a> <a href="#">Percipit maiestatis </a> <a href="#">Regione suscipit </a> <a href="#">Percipit maiestatis </a>
+						</div>
+						
+						<div class="subtitle">Subtitle</div>
+	</div>
+					
+					<div class="categories">
+						<a href="#">Minimum corrumpit </a> <a href="#">Regione suscipit </a> <a href="#">Has et partem </a>
+					</div>
+					
+				</div>
+				<div class="pagefooter">
+					This page was last edited on 29.07.2017 | Template by <a href="http://html5-templates.com/" target="_blank" rel="nofollow">HTML5 Templates</a> <!-- Please leave this link unchanged -->
+					<div class="footerlinks">
+						<a href="#">Privacy policy</a> <a href="#">About</a> <a href="#">Terms and conditions</a> <a href="#">Cookie statement</a> <a href="#">Developers</a>
+					</div>
+				</div>
+			
+			
+			</div>		
+		</div>
+		
+		
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="../../script.js"></script>
+
+
+    </body>
+</html>
