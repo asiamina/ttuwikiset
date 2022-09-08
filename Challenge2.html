@@ -76,7 +76,51 @@
 	<input type="radio" name="question12" value="Password"><label for="Password"> Password </label><br>
 	<input type="radio" name="question12" id="correct12" value="YOURNAME"><label for="YOURNAME"> YOURNAME </label><br>
 	<br><br>
-	
+	<p>Question 13: How many folders are there in the extracted folder "app-release" ?</p>
+	<input type="radio" name="question13" id="correct13" value="6"><label for="6"> 6 </label><br>
+	<input type="radio" name="question13" value="4"><label for="4"> 4 </label><br>
+	<input type="radio" name="question13" value="2"><label for="2"> 2 </label><br>
+	<input type="radio" name="question13" value="7"><label for="7"> 7 </label><br>
+	<br><br>
+    <p>Question 14: How many "uses-permission" tags are there in the AndroidManifest.xml file ?</p>
+	<input type="radio" name="question14" value="10"><label for="10"> 10 </label><br>
+	<input type="radio" name="question14" id="correct14" value="2"><label for="2"> 2 </label><br>
+	<input type="radio" name="question14" value="5"><label for="5"> 5 </label><br>
+	<input type="radio" name="question14" value="0"><label for="0"> 0 </label><br>
+	<br><br>
+    <p>Question 15: What is the name of folder containing the "RestClient.smali" file ?</p>
+	<input type="radio" name="question15" value="bootstrap"><label for="bootstrap"> bootstrap </label><br>
+	<input type="radio" name="question15" id="correct15" value="base"><label for="base"> base </label><br>
+	<input type="radio" name="question15" value="apk"><label for="apk"> apk </label><br>
+	<input type="radio" name="question15" value="res"><label for="res"> res </label><br>
+	<br><br>
+	<p>Question 16: There is an "activity" tag in the AndroidManifest.xml file ?</p>
+	<input type="radio" name="question16" id="correct16" value="True"><label for="True"> True </label><br>
+	<input type="radio" name="question16" value="False"><label for="True">  False </label><br>
+	<br><br>
+    <p>Question 17: What is the size (approximately) of "RestClient.smali" file ?</p>
+	<input type="radio" name="question17" value="145k"><label for="145k"> 145k </label><br>
+	<input type="radio" name="question17" value="10k"><label for="10k"> 10k </label><br>
+	<input type="radio" name="question17" id="correct17" value="45k"><label for="45k"> 45k </label><br>
+	<input type="radio" name="question17" value="35k"><label for="35k"> 35k </label><br>
+	<br><br>
+    <p>Question 18: What is the first parameter in the "performLogin" method of the "RestClient.smali" file ?</p>
+	<input type="radio" name="question18" value="port"><label for="port"> port </label><br>
+	<input type="radio" name="question18" id="correct18" value="server"><label for="server"> server </label><br>
+	<input type="radio" name="question18" value="file"><label for="file"> file </label><br>
+	<input type="radio" name="question18" value="language"><label for="language"> language </label><br>
+	<br><br>
+    <p>Question 19: There is an "username" and "password" field in the RestClient.smali file ?</p>
+	<input type="radio" name="question19" id="correct19" value="True"><label for="True"> True </label><br>
+	<input type="radio" name="question19" value="False"><label for="True">  False </label><br>
+	<br><br>
+    <p>Question 20: What is the name of the folder containing the final android app ?</p>
+	<input type="radio" name="question20" value="smali"><label for="smali"> smali </label><br>
+	<input type="radio" name="question20" id="correct20" value="dist"><label for="dist"> dist </label><br>
+	<input type="radio" name="question20" value="assets"><label for="assets"> assets </label><br>
+	<input type="radio" name="question20" value="java"><label for="java"> java </label><br>
+	<br><br>
+
     <br>
     <p>Please provide your name and email to register an attempt for the assessment</p>
     <br>
@@ -135,12 +179,36 @@
             if (document.getElementById('correct12').checked) {
                 score++;
             }
+            if (document.getElementById('correct13').checked) {
+                score++;
+            }
+            if (document.getElementById('correct14').checked) {
+                score++;
+            }
+            if (document.getElementById('correct15').checked) {
+                score++;
+            }
+            if (document.getElementById('correct16').checked) {
+                score++;
+            }
+            if (document.getElementById('correct17').checked) {
+                score++;
+            }
+            if (document.getElementById('correct18').checked) {
+                score++;
+            }
+            if (document.getElementById('correct19').checked) {
+                score++;
+            }
+            if (document.getElementById('correct20').checked) {
+                score++;
+            }
         
 
-            if (score >= 9) {
-                document.getElementById("demo").innerHTML = "Your score is: "+score+"/12"+"\n   Congratulations, you have answered more than 75% of the questions correctly and can proceed for next Activity.";
+            if (score >= 15) {
+                document.getElementById("demo").innerHTML = "Your score is: "+score+"/20"+"\n   Congratulations, you have answered more than 75% of the questions correctly and can proceed for next Activity.";
             } else {
-                document.getElementById("demo").innerHTML = "Your score is: "+score+"/12"+"\n   It is recommended that you retry Activity 2 until you receive a score of 9 or better.";
+                document.getElementById("demo").innerHTML = "Your score is: "+score+"/20"+"\n   It is recommended that you retry Activity 2 until you receive a score of 15 or better.";
             }
 
             console.log("Hello");
