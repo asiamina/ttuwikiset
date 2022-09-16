@@ -37,6 +37,9 @@ The tentative topics and tools to be covered include:
 *	Creating APK file and JKS keystore file along with self signed certificate inside it
 *	Modifying APK file source code and injected malware into it
 
+## Documentation on Setup of this website with files available in this repository
+
+
 ## Learning Outcomes
 The following are the expected  learning  outcomes  of the course:
 * Masters  of Science Degree:
